@@ -1,0 +1,35 @@
+"""#LA FUNCION NO SE EJECUTARA"
+print("HOLA MUNDO")
+mensaje ="cual es tu nombre: \n"
+nombre=input(mensaje)
+
+print("Hola tu nombre es "+ nombre)"""
+"""
+#FUNCION QUE PREGUNTE EL NOMBRE DEL USUARIO SALARIO Y HORAS TRABAJADAS
+
+saludo= ("Hola que tal, como es tu nombre \n")
+nombre= input(saludo)
+salario= int(input("Que salario estas manejando \n"))
+Horas_trabajadas= int(input("Cuantas horas esta trabajando \n \n"))
+
+sueldo= ("Su sueldo es el siguiente: ", salario * Horas_trabajadas)
+"""
+# Funcion que imprime un TRUE si un numero ingresado por el usuario es par
+"""
+numero =int(input("Ingrese numero \n"))
+print(numero %2 ==0)"""
+# FUNCION AREA DEL CIRCULO
+
+import math
+
+radio = (int(input("Por favor ingrese: ")))
+
+
+def area_circulo(radio):
+
+    area = radio * math.pi
+    print(area)
+    return area
+
+
+area_circulo(radio)
