@@ -214,3 +214,46 @@ def numero_primo(numero):
         return (str(numero)+ ' Es un numero primo')
     else:
         return (str(numero)+ ' No es un numero primo')
+
+def calcule_cantidad_billetes(cantidad):
+   """
+   num-> str
+
+   Calcula la cantidad de billetes para una cantidad dada
+
+   >>> calcule_cantidad_billetes(3300)
+   ('Usted requiere 6 billetes de 500 y le sobra 300,Usted requiere 1 billetes de 200 y le sobra 300,Usted requiere 1 billetes de 100 y le sobra 100,', 'y le sobra ', 0)
+
+
+   :param cantidad:
+   :return: mensaje
+   """
+   ent=cantidad//500
+   sobrante=cantidad%500
+   if ent:
+       mensaje =('Usted requiere '+ str(ent)+ ' billetes de 500 y le sobra '+ str(sobrante)+"," )
+
+   ent=sobrante//200
+   if ent:
+       mensaje +=('Usted requiere '+ str(ent)+ ' billetes de 200 y le sobra '+ str(sobrante)+",")
+   sobrante= sobrante%200
+   ent=sobrante//100
+   if ent:
+       mensaje +=('Usted requiere '+ str(ent)+ ' billetes de 100 y le sobra '+ str(sobrante)+",")
+   sobrante = sobrante % 100
+   ent = sobrante // 50
+   if ent:
+       mensaje +=('Usted requiere ' + str(ent) + ' billetes de 50 y le sobra '+ str(sobrante)+",")
+   sobrante = sobrante % 50
+   ent = sobrante // 20
+   if ent:
+       mensaje +=('Usted requiere ' + str(ent) + ' billetes de 20 y le sobra '+ str(sobrante)+",")
+   sobrante = sobrante % 20
+   ent = sobrante // 10
+   if ent:
+       mensaje +=('Usted requiere ' + str(ent) + ' billetes de 10 y le sobra '+ str(sobrante)+",")
+
+   sobrante = sobrante % 10
+   return mensaje , 'y le sobra ' , sobrante
+
+
