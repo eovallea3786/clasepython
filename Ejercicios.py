@@ -44,7 +44,6 @@ def compara_edades(edad1, edad2):
     else:
         return 'El primero es mas joven'
 
-
 def es_parentesis(caracter):
     """
 
@@ -67,7 +66,6 @@ def es_parentesis(caracter):
     elif caracter in '()': # caracter == '(' or caracter == ')':
         return 'Es parentesis'
     return 'No es parentesis'
-
 
 def dividir(dividendo, divisor):
     '''
@@ -190,30 +188,32 @@ def numero_primo(numero):
     '4 No es un numero primo'
 
     >>> numero_primo(0)
+    '0 No es un numero primo'
 
-
-    >>> numero_primo()
-
-    >>> doble_impar('hola')
+    >>> numero_primo('hola')
     Traceback (most recent call last):
     ..
     TypeError: hola no es un numero o otro tipo de caracter
 
-    >>> doble_impar(6.2)
+    >>> numero_primo(6.2)
     Traceback (most recent call last):
     ..
     TypeError: 6.2 no es un numero o otro tipo de caracter
 
-    :param numero:
-    :return:
+    :param numero: numero a evaluar
+    :return: mensaje verificando si es o no un numero primo
     """
-
     if int != type(numero):
         raise TypeError(str(numero) + ' no es un numero o otro tipo de caracter')
-    elif (((numero%numero)==0) == ((numero%1)==0))
-        return (str(numero)+ ' Es un numero primo')
-    else:
-        return (str(numero)+ ' No es un numero primo')
+    elif numero <= 1:
+        return (str(numero) + ' No es un numero primo')
+    elif numero == 2:
+        return (str(numero) + ' Es un numero primo')
+    elif numero > 2:
+        for i in range(2, numero):
+            if numero % i >= 1:
+                return (str(numero) + ' No es un numero primo')
+        return (str(numero) + ' Es un numero primo')
 
 def calcule_cantidad_billetes(cantidad):
    """
@@ -222,38 +222,56 @@ def calcule_cantidad_billetes(cantidad):
    Calcula la cantidad de billetes para una cantidad dada
 
    >>> calcule_cantidad_billetes(3300)
-   ('Usted requiere 6 billetes de 500 y le sobra 300,Usted requiere 1 billetes de 200 y le sobra 300,Usted requiere 1 billetes de 100 y le sobra 100,', 'y le sobra ', 0)
+   ' Usted requiere 6 billetes de 500, Usted requiere 1 billetes de 200, Usted requiere 1 billetes de 100,'
 
+   >>> calcule_cantidad_billetes('hola')
+   Traceback (most recent call last):
+   ..
+   TypeError: hola no es un numero o otro tipo de caracter
+
+    >>> calcule_cantidad_billetes(6.2)
+    Traceback (most recent call last):
+    ..
+    TypeError: 6.2 no es un numero o otro tipo de caracter
+
+    >>> calcule_cantidad_billetes(-600)
+    Traceback (most recent call last):
+    ..
+    ValueError: -600 no es un valor para una cantidad monetaria
 
    :param cantidad:
    :return: mensaje
    """
-   ent=cantidad//500
-   sobrante=cantidad%500
-   if ent:
-       mensaje =('Usted requiere '+ str(ent)+ ' billetes de 500 y le sobra '+ str(sobrante)+"," )
+   if int != type(cantidad):
+       raise TypeError(str(cantidad) + ' no es un numero o otro tipo de caracter')
+   else:
+       if (cantidad)<0:
+           raise ValueError(str(cantidad) + ' no es un valor para una cantidad monetaria')
 
-   ent=sobrante//200
-   if ent:
-       mensaje +=('Usted requiere '+ str(ent)+ ' billetes de 200 y le sobra '+ str(sobrante)+",")
-   sobrante= sobrante%200
-   ent=sobrante//100
-   if ent:
-       mensaje +=('Usted requiere '+ str(ent)+ ' billetes de 100 y le sobra '+ str(sobrante)+",")
-   sobrante = sobrante % 100
-   ent = sobrante // 50
-   if ent:
-       mensaje +=('Usted requiere ' + str(ent) + ' billetes de 50 y le sobra '+ str(sobrante)+",")
-   sobrante = sobrante % 50
-   ent = sobrante // 20
-   if ent:
-       mensaje +=('Usted requiere ' + str(ent) + ' billetes de 20 y le sobra '+ str(sobrante)+",")
-   sobrante = sobrante % 20
-   ent = sobrante // 10
-   if ent:
-       mensaje +=('Usted requiere ' + str(ent) + ' billetes de 10 y le sobra '+ str(sobrante)+",")
+       ent = cantidad // 500
+       sobrante = cantidad % 500
+       if ent:
+           mensaje =(' Usted requiere {0} billetes de 500,'.format(cantidad // 500))
 
-   sobrante = sobrante % 10
-   return mensaje , 'y le sobra ' , sobrante
+       ent=sobrante//200
+       if ent:
+           mensaje +=(' Usted requiere {0} billetes de 200,'.format(sobrante//200))
+       sobrante= sobrante%200
+       ent=sobrante//100
+       if ent:
+           mensaje +=(' Usted requiere {0} billetes de 100,' .format(sobrante//100))
+       sobrante = sobrante % 100
+       ent = sobrante // 50
+       if ent:
+           mensaje +=(' Usted requiere {0} billetes de 50,'. format(sobrante // 50))
+       sobrante = sobrante % 50
+       ent = sobrante // 20
+       if ent:
+           mensaje +=(' Usted requiere {0} billetes de 20,'. format(sobrante // 20))
+       sobrante = sobrante % 20
+       ent = sobrante // 10
+       if ent:
+           mensaje +=(' Usted requiere {0} billetes de 10,'. format(sobrante // 10))
 
-
+       sobrante = sobrante % 10
+       return (mensaje)
