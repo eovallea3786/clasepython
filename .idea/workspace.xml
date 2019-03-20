@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e30499-87ee-4d72-8c2b-b1972a47ac69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Clase/catorcemarzo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_calcule_cantidad_billetes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase/Listas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +12,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clase/Listas.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ejercicios.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="276" column="23" lean-forward="true" selection-start-line="216" selection-end-line="276" selection-end-column="23" />
+              <folding>
+                <element signature="e#34#426#0" />
+                <element signature="e#466#1098#0" />
+                <element signature="e#1133#1694#0" />
+                <element signature="e#1733#2506#0" />
+                <element signature="e#2537#3610#0" />
+                <element signature="e#3656#5093#0" />
+                <element signature="e#5125#6198#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_calcule_cantidad_billetes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="112" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#95#333#0" />
+                <element signature="e#373#711#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,6 +85,7 @@
         <option value="$PROJECT_DIR$/Clase/catorcemarzo.py" />
         <option value="$PROJECT_DIR$/Ejercicios.py" />
         <option value="$PROJECT_DIR$/test_calcule_cantidad_billetes.py" />
+        <option value="$PROJECT_DIR$/Clase/Listas.py" />
       </list>
     </option>
   </component>
@@ -99,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest calcule_cantidad_billetes">
+  <component name="RunManager" selected="Python tests.Doctests in Ejercicios">
     <configuration name="Python pruebas" type="PythonConfigurationType" factoryName="Python">
       <module name="Programacion20191" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,12 +296,12 @@
     <list>
       <item itemvalue="Python.ventiochofebrero" />
       <item itemvalue="Python.Python pruebas" />
+      <item itemvalue="Python.catorcemarzo" />
       <item itemvalue="Python tests.Unittests in Python pruebas.py" />
+      <item itemvalue="Python tests.Doctests in Ejercicios" />
       <item itemvalue="Python tests.Unittests in test_numero_primo.py" />
       <item itemvalue="Python tests.Unittests for test_numero_primo.TestNumero_primo.test_numero_primo" />
       <item itemvalue="Python tests.Unittests in test_calcule_cantidad_billetes.py" />
-      <item itemvalue="Python tests.Doctests in Ejercicios" />
-      <item itemvalue="Python.catorcemarzo" />
       <item itemvalue="Python tests.Doctest calcule_cantidad_billetes" />
     </list>
     <recent_temporary>
@@ -288,12 +325,17 @@
       <option name="presentableId" value="Default" />
       <updated>1550014928240</updated>
     </task>
+    <task id="LOCAL-00001" summary="14/03/2019">
+      <created>1552612090281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552612090281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_Ejercicios - 2019.03.14 at 19h 51m 22s.xml">
-      <configuration name="Doctests in Ejercicios" configurationId="tests" />
-    </history-entry>
     <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 19h 51m 28s.xml">
       <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
     </history-entry>
@@ -320,6 +362,9 @@
     </history-entry>
     <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 20h 04m 20s.xml">
       <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_Ejercicios - 2019.03.19 at 19h 57m 55s.xml">
+      <configuration name="Doctests in Ejercicios" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -352,6 +397,11 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="14/03/2019" />
+    <MESSAGE value="19 de Marzo del 2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="19 de Marzo del 2019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hora.py">
@@ -448,36 +498,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_es_parentesis.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_numero_primo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="217" column="40" selection-start-line="217" selection-start-column="40" selection-end-line="217" selection-end-column="40" />
-          <folding>
-            <element signature="e#34#426#0" />
-            <element signature="e#466#1098#0" />
-            <element signature="e#1134#1695#0" />
-            <element signature="e#1735#2508#0" />
-            <element signature="e#2539#3612#0" />
-            <element signature="e#3658#5095#0" />
-            <element signature="e#5127#6204#0" />
-            <element signature="e#6244#8184#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_es_parentesis.py" />
+    <entry file="file://$PROJECT_DIR$/test_numero_primo.py" />
     <entry file="file://$PROJECT_DIR$/Clase/catorcemarzo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -485,15 +507,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Clase/Listas.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejercicios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="276" column="23" lean-forward="true" selection-start-line="216" selection-end-line="276" selection-end-column="23" />
+          <folding>
+            <element signature="e#34#426#0" />
+            <element signature="e#466#1098#0" />
+            <element signature="e#1133#1694#0" />
+            <element signature="e#1733#2506#0" />
+            <element signature="e#2537#3610#0" />
+            <element signature="e#3656#5093#0" />
+            <element signature="e#5125#6198#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_calcule_cantidad_billetes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="135">
+          <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="112" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
             <element signature="e#95#333#0" />
-            <element signature="e#372#710#0" />
-            <element signature="e#390#918#0" />
+            <element signature="e#373#711#0" />
           </folding>
         </state>
       </provider>
