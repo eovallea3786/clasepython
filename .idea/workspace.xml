@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e30499-87ee-4d72-8c2b-b1972a47ac69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Clase/Listas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase/Producto_escalar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase/Producto_escalar2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase/matrices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase/test_es_vocal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase/while.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clase/Listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Clase/Listas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_calcule_cantidad_billetes.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_calcule_cantidad_billetes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,45 +18,94 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clase/Listas.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ejercicios.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="276" column="23" lean-forward="true" selection-start-line="216" selection-end-line="276" selection-end-column="23" />
-              <folding>
-                <element signature="e#34#426#0" />
-                <element signature="e#466#1098#0" />
-                <element signature="e#1133#1694#0" />
-                <element signature="e#1733#2506#0" />
-                <element signature="e#2537#3610#0" />
-                <element signature="e#3656#5093#0" />
-                <element signature="e#5125#6198#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_calcule_cantidad_billetes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="112" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <element signature="e#95#333#0" />
-                <element signature="e#373#711#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Clase/Listas.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Clase/test_es_vocal.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Ejercicios.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="137" column="39" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#34#426#0" />
+                    <element signature="e#466#1098#0" />
+                    <element signature="e#1133#1694#0" />
+                    <element signature="e#1733#2506#0" />
+                    <element signature="e#2537#3610#0" />
+                    <element signature="e#3656#5093#0" />
+                    <element signature="e#5125#6198#0" />
+                    <element signature="e#6244#8173#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Clase/Producto_escalar.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Clase/matrices.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test_calcule_cantidad_billetes.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="525">
+                  <caret line="42" selection-start-line="42" selection-end-line="42" />
+                  <folding>
+                    <element signature="e#0#29#0" expanded="true" />
+                    <element signature="e#1642#2260#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Clase/while.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Clase/Producto_escalar2.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,9 +138,18 @@
         <option value="$PROJECT_DIR$/test_numero_primo.py" />
         <option value="$PROJECT_DIR$/test_es_parentesis.py" />
         <option value="$PROJECT_DIR$/Clase/catorcemarzo.py" />
+        <option value="$PROJECT_DIR$/Clase/test_es_vocal.py" />
+        <option value="$PROJECT_DIR$/Clase/Listas.py" />
+        <option value="$PROJECT_DIR$/test_mensaje_negativo.py" />
+        <option value="$PROJECT_DIR$/test_compara_edades.py" />
+        <option value="$PROJECT_DIR$/test_dividir.py" />
+        <option value="$PROJECT_DIR$/test_doble_impar.py" />
         <option value="$PROJECT_DIR$/Ejercicios.py" />
         <option value="$PROJECT_DIR$/test_calcule_cantidad_billetes.py" />
-        <option value="$PROJECT_DIR$/Clase/Listas.py" />
+        <option value="$PROJECT_DIR$/Clase/while.py" />
+        <option value="$PROJECT_DIR$/Clase/Producto_escalar.py" />
+        <option value="$PROJECT_DIR$/Clase/Producto_escalar2.py" />
+        <option value="$PROJECT_DIR$/Clase/matrices.py" />
       </list>
     </option>
   </component>
@@ -112,6 +176,15 @@
               <item name="clasepython" type="462c0819:PsiDirectoryNode" />
               <item name="Clase" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="clasepython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="clasepython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,7 +194,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Clase" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Clase/Listas.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -136,7 +210,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in Ejercicios">
+  <component name="RunManager" selected="Python.matrices">
+    <configuration name="Listas" type="PythonConfigurationType" factoryName="Python">
+      <module name="Programacion20191" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Clase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clase/Listas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python pruebas" type="PythonConfigurationType" factoryName="Python">
       <module name="Programacion20191" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,6 +274,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="matrices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Programacion20191" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Clase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clase/matrices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ventiochofebrero" type="PythonConfigurationType" factoryName="Python">
       <module name="Programacion20191" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +308,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clase/ventiochofebrero.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="while" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Programacion20191" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Clase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clase/while.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,18 +373,22 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_numero_primo.TestNumero_primo.test_numero_primo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in Listas" type="tests" factoryName="Doctests">
       <module name="Programacion20191" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_numero_primo.TestNumero_primo.test_numero_primo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clase/Listas.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in Python pruebas.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
@@ -279,38 +420,26 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_numero_primo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Programacion20191" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_numero_primo.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.ventiochofebrero" />
+      <item itemvalue="Python.Listas" />
       <item itemvalue="Python.Python pruebas" />
       <item itemvalue="Python.catorcemarzo" />
-      <item itemvalue="Python tests.Unittests in Python pruebas.py" />
-      <item itemvalue="Python tests.Doctests in Ejercicios" />
-      <item itemvalue="Python tests.Unittests in test_numero_primo.py" />
-      <item itemvalue="Python tests.Unittests for test_numero_primo.TestNumero_primo.test_numero_primo" />
-      <item itemvalue="Python tests.Unittests in test_calcule_cantidad_billetes.py" />
+      <item itemvalue="Python.matrices" />
+      <item itemvalue="Python.ventiochofebrero" />
+      <item itemvalue="Python.while" />
       <item itemvalue="Python tests.Doctest calcule_cantidad_billetes" />
+      <item itemvalue="Python tests.Doctests in Ejercicios" />
+      <item itemvalue="Python tests.Doctests in Listas" />
+      <item itemvalue="Python tests.Unittests in Python pruebas.py" />
+      <item itemvalue="Python tests.Unittests in test_calcule_cantidad_billetes.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctest calcule_cantidad_billetes" />
+        <item itemvalue="Python.matrices" />
+        <item itemvalue="Python.while" />
         <item itemvalue="Python tests.Unittests in test_calcule_cantidad_billetes.py" />
+        <item itemvalue="Python tests.Doctest calcule_cantidad_billetes" />
         <item itemvalue="Python.catorcemarzo" />
-        <item itemvalue="Python tests.Unittests for test_numero_primo.TestNumero_primo.test_numero_primo" />
-        <item itemvalue="Python tests.Unittests in test_numero_primo.py" />
       </list>
     </recent_temporary>
   </component>
@@ -332,39 +461,46 @@
       <option name="project" value="LOCAL" />
       <updated>1552612090281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="19 de Marzo del 2019">
+      <created>1553044183157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553044183157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 19h 51m 28s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 01m 56s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 19h 59m 30s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 02m 37s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 20h 00m 48s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 03m 04s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 20h 01m 28s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 03m 43s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 20h 02m 33s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 03m 52s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 20h 02m 59s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 08m 31s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 20h 03m 25s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 08m 59s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 20h 03m 53s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 12m 18s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_calcule_cantidad_billetes - 2019.03.14 at 20h 04m 20s.xml">
-      <configuration name="Doctest calcule_cantidad_billetes" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 12m 54s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_Ejercicios - 2019.03.19 at 19h 57m 55s.xml">
-      <configuration name="Doctests in Ejercicios" configurationId="tests" />
+    <history-entry file="Unittests_in_test_calcule_cantidad_billetes_py - 2019.03.21 at 20h 16m 46s.xml">
+      <configuration name="Unittests in test_calcule_cantidad_billetes.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -389,7 +525,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3275862" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297414" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054646" side_tool="true" weight="0.39978448" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -470,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase/Python pruebas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Clase/ventiochofebrero.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
@@ -507,13 +636,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase/Listas.py">
+    <entry file="file://$PROJECT_DIR$/Clase/Python pruebas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_mensaje_negativo.py" />
+    <entry file="file://$PROJECT_DIR$/test_compara_edades.py" />
+    <entry file="file://$PROJECT_DIR$/test_dividir.py" />
+    <entry file="file://$PROJECT_DIR$/test_doble_impar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_calcule_cantidad_billetes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#1642#2260#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase/while.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase/Producto_escalar2.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase/Listas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase/test_es_vocal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ejercicios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="276" column="23" lean-forward="true" selection-start-line="216" selection-end-line="276" selection-end-column="23" />
+        <state relative-caret-position="150">
+          <caret line="137" column="39" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
           <folding>
             <element signature="e#34#426#0" />
             <element signature="e#466#1098#0" />
@@ -522,19 +703,18 @@
             <element signature="e#2537#3610#0" />
             <element signature="e#3656#5093#0" />
             <element signature="e#5125#6198#0" />
+            <element signature="e#6244#8173#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_calcule_cantidad_billetes.py">
+    <entry file="file://$PROJECT_DIR$/Clase/Producto_escalar.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase/matrices.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="112" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <element signature="e#95#333#0" />
-            <element signature="e#373#711#0" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
